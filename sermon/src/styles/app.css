@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Circular Std;
+  src: url(../fonts/Circular\ Std\ Book.ttf);
+}
+
+body {
+  font-family: Circular Std, Arial, Helvetica, sans-serif;
+}
