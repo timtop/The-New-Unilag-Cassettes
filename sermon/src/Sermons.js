@@ -18,7 +18,9 @@ class Sermons extends React.Component {
             <div className="sermon_date">{sermon.date}</div>
             <div className="download_btn">
               <img src={downloadbtn} alt="Avatar" className="download_icon" />
-              <a className="d_items">Download</a>
+              <a href={sermon.link} download>
+                Download
+              </a>
             </div>
           </div>
         </div>
