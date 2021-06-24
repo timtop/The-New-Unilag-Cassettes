@@ -1,6 +1,6 @@
 import React from "react";
 
-import builderimg from "./imgs/Builders-1.jpg";
+// import builderimg from "./imgs/Builders-1.jpg";
 import downloadbtn from "./imgs/Download icon.svg";
 import "./styles/sermons.css";
 
@@ -9,7 +9,7 @@ class Sermons extends React.Component {
     return this.props.sermons.map((sermon) => {
       return (
         <div className="sermon_card">
-          <img src={builderimg} alt="Avatar" className="sermon_img" />
+          <img src={sermon.img} alt="Avatar" className="sermon_img" />
           <div className="sermon_container">
             <div className="sermon_title">
               <b>{sermon.title}</b>
