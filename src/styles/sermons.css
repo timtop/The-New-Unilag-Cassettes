@@ -79,7 +79,7 @@ img {
 /* Screen size 650px and below */
 @media (max-width: 650px) {
   .sermon_card {
-    width: 150px;
+    width: 160px;
     margin-right: 10px;
   }
   .sermon {
