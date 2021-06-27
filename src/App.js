@@ -31,7 +31,7 @@ class App extends React.Component {
         title: "The Builders III",
         preacher: "Pst. Deborah Elijah",
         date: "Sunday 20th June 2021",
-        link: "null",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1624830384/Messages/200621_-_The_Heart_Of_A_Builder_iivzpe.mp3",
         name: "The Builders III - 20/06/21",
         img: builder3,
       },
