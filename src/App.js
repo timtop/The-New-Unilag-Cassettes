@@ -7,6 +7,8 @@ import "./styles/app.css";
 import builder1 from "./imgs/Builders-1.jpg";
 import builder2 from "./imgs/Builders-2.jpg";
 import builder3 from "./imgs/Builders-3.jpg";
+import builder4 from "./imgs/Builders-4.jpg";
+import builder5 from "./imgs/Builders-5.jpg";
 
 class App extends React.Component {
   render() {
@@ -34,6 +36,22 @@ class App extends React.Component {
         link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1624830384/Messages/200621_-_The_Heart_Of_A_Builder_iivzpe.mp3",
         name: "The Builders III - 20/06/21",
         img: builder3,
+      },
+      {
+        title: "The Builders IIII",
+        preacher: "Pst. Deborah Elijah",
+        date: "Sunday 27th June 2021",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1625415070/Messages/The_Builders_px6j2j.mp3",
+        name: "The Builders III - 20/06/21",
+        img: builder4,
+      },
+      {
+        title: "Building from the Ruins",
+        preacher: "Pst. Deborah Elijah",
+        date: "Sunday 4th July 2021",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1625414586/Messages/Builing_from_the_Ruins_nwaadg.mp3",
+        name: "The Builders III - 20/06/21",
+        img: builder5,
       },
     ];
     return (
