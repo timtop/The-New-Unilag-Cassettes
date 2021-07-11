@@ -9,6 +9,7 @@ import builder2 from "./imgs/Builders-2.jpg";
 import builder3 from "./imgs/Builders-3.jpg";
 import builder4 from "./imgs/Builders-4.jpg";
 import builder5 from "./imgs/Builders-5.jpg";
+import builder6 from "./imgs/Builders-6.jpg";
 
 class App extends React.Component {
   render() {
@@ -52,6 +53,14 @@ class App extends React.Component {
         link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1625414586/Messages/Builing_from_the_Ruins_nwaadg.mp3",
         name: "The Builders III - 20/06/21",
         img: builder5,
+      },
+      {
+        title: "Tear Down and Rebuild (Panel Section)",
+        preacher: "Pst. Deborah Elijah",
+        date: "Sunday 11th July 2021",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1626024565/Messages/11th_July_2021_Sunday_Service_i4uwzi.mp3",
+        name: "The Builders III - 20/06/21",
+        img: builder6,
       },
     ];
     return (
