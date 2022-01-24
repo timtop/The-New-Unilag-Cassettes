@@ -10,6 +10,7 @@ import builder3 from "./imgs/Builders-3.jpg";
 import builder4 from "./imgs/Builders-4.jpg";
 import builder5 from "./imgs/Builders-5.jpg";
 import builder6 from "./imgs/Builders-6.jpg";
+import movement1 from "./imgs/Movement-1.jpg";
 
 class App extends React.Component {
   render() {
@@ -63,10 +64,22 @@ class App extends React.Component {
         img: builder6,
       },
     ];
+
+    const sermons2022 = [
+      {
+        title: "The Movement",
+        preacher: "Pst. Deborah Elijah",
+        date: "Sunday 16th January 2022",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1642976327/Messages/160122_The_Movement_-_Pastor_Debbie_ty9tzs.mp4",
+        name: "The Movement - 16/01/22",
+        img: movement1,
+      },
+    ];
+
     return (
       <div className="wrapper">
         <Header />
-        <Sermons sermons={sermons} />
+        <Sermons sermons={sermons} sermons2022={sermons2022} />
       </div>
     );
   }
