@@ -53,11 +53,11 @@ class Sermons extends React.Component {
   render() {
     return (
       <div className="sermon">
-        <h1>Sermons 2021</h1>
-        <div className="card_display">{this.renderlist2021()}</div>
-
         <h1>Sermons 2022</h1>
         <div className="card_display">{this.renderlist2022()}</div>
+
+        <h1>Sermons 2021</h1>
+        <div className="card_display">{this.renderlist2021()}</div>
       </div>
     );
   }
