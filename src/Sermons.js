@@ -30,7 +30,7 @@ class Sermons extends React.Component {
   render() {
     return (
       <div className="sermon">
-        <h1>Sermon</h1>
+        <h1>Sermon 2021</h1>
         <div className="card_display">{this.renderlist()}</div>
       </div>
     );
