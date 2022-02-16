@@ -12,6 +12,8 @@ import builder5 from "./imgs/Builders-5.jpg";
 import builder6 from "./imgs/Builders-6.jpg";
 import movement1 from "./imgs/Movement-1.jpg";
 import goshen from "./imgs/goshen.jpg";
+import royal from "./imgs/Royal.jpg";
+import lovesme from "./imgs/lovesme.jpg";
 class App extends React.Component {
   render() {
     const sermons = [
@@ -81,6 +83,22 @@ class App extends React.Component {
         link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1643070124/Messages/230122_Knowing_who_you_are_in_Christ_wdsvkz.mp3",
         name: "Goshen Experiecne - 23/01/22",
         img: goshen,
+      },
+      {
+        title: "A Royal Preisthood",
+        preacher: "Pst. Deborah Elijah",
+        date: "Sunday 30th January 2022",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1644577984/Messages/310122_Knowing_who_you_are_in_Christ_2_bzv9vl.mp3",
+        name: "Goshen Experiecne - 30/01/22",
+        img: royal,
+      },
+      {
+        title: "Love loves me",
+        preacher: "Pst. Deborah Elijah",
+        date: "Sunday 6th Februray 2022",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1644577953/Messages/060222_Love_Loves_Me_ytgvom.mp3",
+        name: "Goshen Experiecne - 23/01/22",
+        img: lovesme,
       },
     ];
 
