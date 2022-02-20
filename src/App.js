@@ -14,6 +14,7 @@ import movement1 from "./imgs/Movement-1.jpg";
 import goshen from "./imgs/goshen.jpg";
 import royal from "./imgs/Royal.jpg";
 import lovesme from "./imgs/lovesme.jpg";
+import direction from "./imgs/Confused.jpg";
 class App extends React.Component {
   render() {
     const sermons = [
@@ -99,6 +100,14 @@ class App extends React.Component {
         link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1644577953/Messages/060222_Love_Loves_Me_ytgvom.mp3",
         name: "Goshen Experiecne - 23/01/22",
         img: lovesme,
+      },
+      {
+        title: "Confused ? (Receiving Divine Direction)",
+        preacher: "Pst. Tobi Olajiga",
+        date: "Sunday 20th Februray 2022",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1645386653/Messages/200222_Recieving_Divine_Direction_k93jqh.mp3",
+        name: "Goshen Experiecne - 23/01/22",
+        img: direction,
       },
     ];
 
